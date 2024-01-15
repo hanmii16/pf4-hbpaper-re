@@ -1,0 +1,199 @@
+@media screen and (max-width:768px) {
+  .vh100 { 
+  min-height: auto;
+  }
+  .h3 {
+  font-size: calc(40px * 0.4);  
+  }
+  .h5 {
+  font-size: calc(70px * 0.3);
+  }
+  main .wrap {
+   padding: 0 15px;
+   box-sizing: border-box;
+  }
+  header .wrap ul.gnb {
+   display: none;
+  }
+  header .wrap span.lang {
+   display: none;
+  }
+  .ham {
+  display: inherit;
+  padding-right: 15px;
+  }
+  /*타이틀*/
+  #title {  
+  min-height: auto;
+  }
+  #title .wrap .witem {
+    
+  padding: 0 15px;
+  text-align: center;
+  }
+  #title .wrap h2 span {
+   display: block;
+  }
+
+  /* business */
+
+  /* product */
+  section#product .wrap ul::before {
+    
+  width: calc(100% - 9.625vw);
+  left: 1.813vw;
+  bottom: 1vw;
+  }
+  section#product .wrap ul li { 
+  min-width: initial;
+  }
+  section#product .wrap ul li a {  
+  font-size: 0;
+  }
+ 
+  section#product div article p span { 
+  display: initial;
+  }  
+}
+@media screen and (max-width:980px) {
+  #title .wrap h2 {
+  font-size: calc(145px * 0.3);
+  line-height: 1.2;
+  }
+  #title .wrap p {  
+  font-size: 13px;
+  }
+  /*promotion*/
+  section#promotion .wrap {
+  
+  padding: 0 15px;
+  display: initial;
+  }
+  section#promotion .wrap p {
+    
+  white-space: pre;
+  }
+  section#promotion .wrap h2 {
+  font-size: calc(70px * 0.3);
+  text-align: center;
+  }
+  section#promotion .wrap iframe {  
+  width: calc(100vw - 30px);
+  height: calc(36.25vw - 30px);
+  }
+  /*business*/
+  section#business .wrap h2 {
+  display: inherit;
+  width: 100%;
+  z-index: 1;
+  height: 160vw;
+  }
+  section#business .wrap ul {  
+  /*! width: calc(100vw - 30px); */
+  /*! height: calc(49.25vw - 30px); */
+  /*! width: 100vw; */
+  }
+  section#business .wrap ul li {
+  
+  width: 50vw;
+  }
+  section#business .wrap ul li a::before {
+   
+  width: 92vw;
+  height: 71vw;
+  }
+  section#business .wrap ul li a h3 {
+  display: none;
+  }
+  section#business .wrap p {
+  font-size: 13px;
+  }
+  /*products*/
+  section#product div article p {
+  white-space: pre-line;
+  font-size: 12px;
+  }
+  section#product .wrap div article figure { 
+  background-position: center;
+  }
+  section#product .wrap div article figure img {
+  height: 20.7vw;
+  width: 100%;
+  }
+  section#product .wrap div article h3 {
+  font-size: calc(25px *0.7);
+  }
+  section#product .wrap ul { 
+  /*! display: none; */
+  }
+  /*notice*/
+  section#news .wrap h2 {
+  font-size: calc(70px * 0.3);
+  }
+  section#news .wrap h3 {
+  
+  text-align: center;
+  margin-bottom: 10px;
+  }
+  section#news .wrap figure img {
+  width: 100%;
+  }
+  section#news .wrap ul li a figure figcaption {
+  font-size: calc(14px * 0.4);
+  }
+  section#news .wrap a.more {
+  position: relative;
+  }
+  /*footer*/
+  footer .wrap {
+   padding: 0 15px;
+  }
+  footer .wrap ul.pnb {
+  width: 100%;
+  }
+  footer .wrap ul.pnb li:first-child a {
+  
+  padding: inherit;
+  padding: 3px;
+  }
+  footer .wrap ul.pnb li:not(:first-child) a {
+   
+  padding: 0;
+  }
+  footer .wrap ul.pnb li {
+   
+  }
+  footer .wrap ul.pnb li a {
+   
+  font-size: 11px;
+  }
+  footer .wrap div {
+   
+  width: 100%;
+  }
+  footer .wrap address {
+  
+  font-size: 12px;
+  }
+  footer .wrap address::before {
+  width: initial;
+  }
+  footer .wrap div ul.fnb {
+  width: auto;
+  }
+  footer .wrap div ul.fnb li a {
+  font-size: 12px;
+  padding: initial;
+  padding: 5px;
+  }
+  footer .wrap a.blog { 
+  position: static;
+  width: 100%;
+  background-position-x: calc(100% - 15px);
+  background-repeat: no-repeat;
+  }
+  footer .wrap p {
+  font-size: 12px;
+  }
+  
+}
